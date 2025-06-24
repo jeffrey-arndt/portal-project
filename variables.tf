@@ -1,10 +1,10 @@
 #Variables
 variable "control_plane_id" {
   type = string
-  default = "773f9f11-0a3d-4ac1-84cd-8b382fe99e69" # Enter CP ID provided by Platform Team here
+  default = "740027f9-465b-4670-abe2-a80811a71f16" # Enter CP ID provided by Platform Team here
 }
 
 variable "portal_id" {
     type = string
-    default = "0271a721-adeb-4503-88d7-a666d7ada498" # Enter Portal ID provided by the Platform team
+    default = "8dce862d-6d59-4095-a41c-d6cb8fa5deeb" # Enter Portal ID provided by the Platform team
 }
