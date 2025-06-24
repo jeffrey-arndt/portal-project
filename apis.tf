@@ -20,7 +20,7 @@ resource "konnect_api_implementation" "my_apiimplementation" {
 resource "konnect_api_publication" "my_apipublication" {
   provider                   = konnect-beta
   api_id                     = konnect_api.my_api.id
-  portal_id                  = "0271a721-adeb-4503-88d7-a666d7ada498"
+  portal_id                  = "8dce862d-6d59-4095-a41c-d6cb8fa5deeb"
   auto_approve_registrations = true
   visibility                 = "public"
   auth_strategy_ids = [
